@@ -1,0 +1,27 @@
+.container{
+padding-left: 450px;
+margin-top: 30px;
+}
+.outlet{
+  padding-left: 450px;
+  position: relative;
+  bottom: 40px;
+}
+.linkcolor{
+  color:"red"
+}
+.hublinks{
+  position: relative;
+  bottom: 60px;
+  left: 400px;
+}
+
+h1,p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.downloadbutton{
+  position: relative;
+  left:400px;
+  bottom:80px
+}

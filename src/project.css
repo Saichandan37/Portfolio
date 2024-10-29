@@ -1,0 +1,32 @@
+/* src/components/ProjectList.css */
+
+.project-grid {
+  margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .project-row {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .project-card {
+    width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
